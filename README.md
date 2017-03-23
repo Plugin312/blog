@@ -12,7 +12,7 @@
 	4. JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包<br>
    		下载地址：JODCConverter下载
 + 启动服务
-	+ 打开dos窗口，进入openoffice安装盘符，输入以下代码来启动服务：
+	+ 打开dos窗口，进入openoffice安装盘符:`C:\Program Files\OpenOffice 4\program`，输入以下代码来启动服务：
 	
 			soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
 + web.xml:将下面的路径改成本地机器文件上传的路径。
